@@ -1,0 +1,182 @@
+body
+{
+	font-size: .16rem;
+	color: #fff;
+}
+
+header .title
+{
+	height: .87rem;
+	width: 100%;
+	background: #1a83d1;
+	text-align: center;
+	font-size: .32rem;
+	line-height: .87rem;
+	position: relative;
+}
+
+header>a
+{
+	display: block;
+	color: #fff;
+	font-size: .4rem;
+	position: absolute;
+	z-index: 1;
+	top: .2rem;
+	left: .2rem;
+}
+
+header nav
+{
+	color: #1a83d1;
+	font-size: 0;
+	border-bottom: 1px solid #aaa;
+}
+
+header nav li
+{
+	width: 2.5rem;
+	height: .5rem;
+	margin: .1rem 0;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	font-size: .24rem;
+	line-height: .5rem;	
+	box-sizing: border-box;
+	border-right: 1px solid #999;
+}
+
+header nav li:last-child
+{
+	border: none;
+}
+
+.content
+{
+	background: #f6f4f4;
+	width: 100%;
+}
+
+.content .head
+{
+	width: 6.9rem;
+	height: 1.03rem;
+	margin: .17rem auto;
+	background: #1a83d1;
+	border-radius: .1rem;
+	font-size: .36rem;
+	line-height: 1.03rem;
+	box-sizing: border-box;
+	padding: 0 .2rem;
+}
+
+.content .head span
+{
+	float: right;
+	font-size: .3rem;
+}
+
+.content li
+{
+	width: 6.9rem;
+	margin: 0 auto .2rem;
+}
+
+.content li div
+{
+	float: left;
+}
+
+.content li .left
+{
+	width: 6.19rem;
+	height: 1.89rem;
+	background: #fff;
+	color: #333;
+	border-top-left-radius: .1rem;
+	border-top-left-radius: .1rem;
+	box-sizing: border-box;
+	padding-top: .16rem;
+}
+
+.content li .left .top
+{
+	width: 100%;
+	height: .33rem;
+	box-sizing: border-box;
+	padding-left: .16rem;
+	font-size: 0;
+}
+
+.content li .left .top span
+{
+	height: .33rem;
+	font-size: .24rem;
+	line-height: .33rem;
+}
+
+.content li .left .top span:nth-child(2)
+{
+	margin-left: .2rem;
+}
+
+.content li .left .top span:last-child
+{
+	display: inline-block;
+	width: .78rem;
+	text-align: center;
+	color: #1a83d1;
+	box-sizing: border-box;
+	border: 1px solid #1a83d1;
+	border-radius: .2rem;
+	margin-left: .2rem;
+}
+
+.content li .left .award
+{
+	width: 2.2rem;
+	height: .45rem;
+	margin: .41rem 1.64rem .54rem;
+}
+
+.content li .left .award span:first-child
+{
+	vertical-align: top;	
+	margin-right: .2rem;
+}
+
+.content li .left .award span:last-child
+{
+	font-size: .6rem;	
+	line-height: .45rem;
+}
+
+.content li .right
+{
+	width: .71rem;
+	height: 1.89rem;
+	background: #1a83d1;
+	color: #fff;
+	border-top-right-radius: .1rem;
+	border-bottom-right-radius: .1rem;
+	text-align: center;
+}
+
+.content li .right span
+{
+	font-size: .32rem;
+	writing-mode: tb-rl;
+	margin-top: .32rem;
+}
+
+.content li:nth-child(even) .right
+{
+	background: #40d37b;
+}
+
+.content li:nth-child(even) .left .top span:last-child
+{
+	color: #40d37b;
+	border-color: #40d37b;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mobile-reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/property.css" />
+		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jq_mobile.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<header>
+			<a><</a>
+					我的资产
+		</header>
+		<div class="content">
+			<div class="control">
+				<div class="bigger">
+					<div class="flash"></div>
+					<div class="small">
+						<p class="count">1000</p>
+						<p>资产总额</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="datar">
+			<div class="container clearfix">
+				<div class="data">
+					<div>
+						<span>可用余额</span>
+						<span>99.99</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>99.99</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>99.99</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>99.99</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>99.99</span>
+					</div>
+				</div>
+				<div class="data">
+					<div>
+						<span>可用余额</span>
+						<span>1.11</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>1.11</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>1.11</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>1.11</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>1.11</span>
+					</div>
+				</div>
+				<div class="data">
+					<div>
+						<span>可用余额</span>
+						<span>8.88</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>8.88</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>8.88</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>8.88</span>
+					</div>
+					<div>
+						<span>可用余额</span>
+						<span>8.88</span>
+					</div>
+				</div>
+			</div>
+			<ul>
+				<li class="selected"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+		var count = $('.small .count'),
+		per = count.text()/100;
+		init();
+		
+		function init(){
+		var timer = null;
+		
+		var times = 1,
+			curCount = 0;
+			
+		go();
+		timer = setInterval(go,10)
+		
+		function go(){
+			curCount+=per;
+			curCount = Math.floor(curCount*100)/100;
+			$('.bigger .flash').css('transform','rotate('+times*2+'deg)')				
+			times++;
+			count.text(curCount);
+			if(times == 101){
+				clearInterval(timer);
+			}
+		}
+		}
+			
+			//JQuery实现跳转，不打开新窗口
+			$('header a').on('click',function(){
+				location.href = 'user.html';
+				//新窗口打开制定网页
+				//window.open('user.html');
+			})
+		
+			$('.datar ul li').on('click',function(){
+				var index = $(this).index();
+				
+				$(this).addClass('selected').siblings().removeClass('selected');
+				$('.datar .container').css('left',-5.4*index+'rem');
+				
+			})
+			
+			//向左划效果
+			$('.datar').on('swipeleft',function(){
+				var index = $('.datar .selected').index();
+				
+				index++;
+				if(index<3){
+					init();
+					$('.datar .container').css('left',-5.4*index+'rem');					
+					$('.datar ul li').eq(index).addClass('selected').siblings().removeClass('selected');
+				}
+			})
+			
+			//向右划效果
+			$('.datar').on('swiperight',function(){
+				
+				var index = $('.datar .selected').index();
+				
+				index--;
+				if(index>-1){
+					init();
+					$('.datar .container').css('left',-5.4*index+'rem');					
+					$('.datar ul li').eq(index).addClass('selected').siblings().removeClass('selected');
+				}
+			})
+		</script>
+	</body>
+
+</html>

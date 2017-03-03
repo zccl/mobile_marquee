@@ -1,0 +1,162 @@
+html
+{
+	font-size: .16rem;
+	color: #fff;
+	background: #1a83d1;
+}
+
+header
+{
+	width: 100%;
+	height: .88rem;
+	text-align: center;
+	font-size: .32rem;
+	line-height: .88rem;
+	position: relative;
+}
+
+header a
+{
+	display: block;
+	color: #fff;
+	font-size: .8rem;
+	position: absolute;
+	top: .05rem;
+	left: .2rem;
+	z-index: 1;
+}
+
+.content
+{
+	width: 6.5rem;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 1.52rem;
+}
+
+.content .control
+{
+	width: 100%;
+	height: 4rem;
+	box-sizing: border-box;
+	padding-top: .2rem;
+	overflow-y: hidden;
+}
+
+.control .bigger
+{
+	width: 6.4rem;
+	height: 6.4rem;
+	margin: 0 auto;
+	border: .02rem solid #fff;
+	border-bottom: none;
+	border-radius: 50%;
+	position: relative;
+}
+
+.control .bigger .flash
+{
+	position: absolute;
+	left: -.01rem;		
+	top: 57%;;
+	width:.15rem;
+    height:.15rem;
+    border-radius: .08rem 0 .08rem .08rem ;
+    background:#fff;
+    transform-origin: 3.23rem -.47rem;
+    /*transition: transform .1s ease-out;*/
+}
+
+.content .bigger .small
+{
+	box-sizing: border-box;
+	width: 5.9rem;	
+	height:5.9rem;
+	margin: .3rem auto 0;
+	border: .18rem solid #fff;
+	border-bottom: none;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 1.3rem;
+}
+
+.content .bigger .small p:first-child
+{
+	font-size: 1rem;
+	line-height: 1.09rem;
+}
+
+.content .bigger .small p:last-child
+{
+	font-size: .4rem;
+}
+
+.datar
+{
+	width: 5.4rem;
+	box-sizing: border-box;
+	padding: 1.4rem 1.05rem 0;
+	overflow: hidden;
+}
+
+.datar ul
+{
+	position: fixed;
+	bottom: 1rem;
+	left: 3.2rem;
+}
+
+.datar li
+{
+	margin: .07rem;
+	width: .15rem;
+	height: .15rem;
+	border: .01rem solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color .5s;
+}
+
+.datar li.selected
+{
+	background: #fff;
+}
+
+.datar .container
+{
+	width: 16.2rem;
+	position: relative;
+	left: 0;
+	transition: left 1s;
+}
+
+.datar .container .data
+{
+	width: 5.4rem;
+	float: left;
+}
+
+.data>div
+{
+	width: 100%;
+	height: .64rem;
+}
+
+.data>div span
+{
+	display: block;
+	width: 2.7rem;
+	height: 100%;
+	line-height: .64rem;
+	text-align: center;
+}
+
+.data>div span:first-child
+{
+	float: left;
+}
+
+.data>div span:last-child
+{
+	float: right;
+}

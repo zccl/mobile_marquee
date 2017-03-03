@@ -1,0 +1,465 @@
+header
+{
+	width: 100%;
+	height: .87rem;
+	background: #1a83d1;
+	font-size: .32rem;
+	line-height: .87rem;
+	text-align: center;
+	position: relative;
+}
+
+header>span
+{
+	position: absolute;
+	left: .2rem;
+}
+
+.content
+{
+	width: 100%;
+	background: url(../img/积分商城.jpg) no-repeat;
+	background-size: 100% auto;
+}
+
+.head
+{
+	width: 100%;
+	height: 2.72rem;
+}
+
+.head .left
+{
+	box-sizing: border-box;
+	width: 2.22rem;
+	float: left;
+	padding-top: .15rem;
+	text-align: center;
+}
+
+.head .left a
+{
+	height: 1.38rem;
+	width: 1.38rem;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.head .left p
+{
+	line-height: .24rem;
+	margin-top: .35rem;
+}
+
+.head .left a img
+{
+	height: 100%;
+}
+
+.head .right
+{
+	width: 5.28rem;
+	float: left;
+}
+
+.head .right>div
+{
+	float: right;
+}
+
+.head .right .integration
+{
+	padding: .98rem .42rem 0 0;
+}
+
+.head .right .integration span
+{
+	font-size: .5rem;
+}
+
+.head .right .btn
+{
+	margin: .23rem .3rem 0 0;
+}
+
+.head .right .btn>div
+{
+	float: left;
+	width: 2.4rem;	
+	height: .6rem;
+	border-radius: 10px;
+	line-height: .6rem;
+	text-align: center;
+}
+
+.head .right .btn>div:first-child
+{
+	background: #f04806;
+}
+
+.head .right .btn>div:last-child
+{
+	background: #1a83d1;
+	margin-left: .18rem;
+}
+
+.prise
+{
+	width: 7.17rem;
+	margin: 3.45rem .16rem .33rem .16rem;
+}
+
+.prise .main
+{
+	width: 100%;
+	border-radius: 16px;
+	background: -webkit-linear-gradient(#fb3826 0%,#fb3826 80%,transparent 80%,transparent 100%);
+	background: linear-gradient(#fb3826 0%,#fb3826 80%,transparent 80%,transparent 100%);
+}
+
+.prise .main .main-head
+{
+	height: .6rem;
+	width: 100%;
+	line-height: .6rem;
+	color: #fce9bc;
+	font-size: .3rem;
+	box-sizing: border-box;
+	padding: 0 .2rem;
+	border-top-left-radius: .16rem;
+	border-top-right-radius: .16rem;
+	cursor: pointer;
+}
+
+.prise .main .main-head span
+{
+	font-size: .26rem;
+	color: #fff;
+	float: right;
+}
+
+.prise .main .main-container
+{
+	width: 100%;
+	height: 4.6rem;
+	background: url(../img/flashBallBgd.png) no-repeat;
+	background-size: 100% 102%;
+	box-sizing: border-box;
+	padding: .17rem;
+	border-bottom-right-radius: .16rem;
+	border-bottom-left-radius: .16rem;
+}
+
+.prise .main .main-ct
+{
+	width: 6.75rem;
+	height: 4.26rem;
+	background: #d60020;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: .1rem;
+	border-radius: .07rem;
+}
+
+.prise .main .main-ct ul
+{
+	width: 100%;
+	height: 100%;
+}
+
+.prise .main .main-ct li
+{
+	float: left;
+	width: 2.09rem;
+	height: 1.14rem;
+	margin:0 .04rem .24rem;
+	background: #feeeee;
+	border-radius: .16rem;
+	box-shadow: 0 .14rem 0 #fec2c2;
+	text-align: center;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.prise .main .main-ct li.active
+{
+	background: #fe8c11;
+	box-shadow: 0 .14rem 0 #df480d;
+}
+
+.prise .main .main-ct li>div
+{
+	height: .6rem;
+	width: 1.48rem;
+	margin: .1rem auto;
+	background: url(../img/cash1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.prise .main .main-ct li>div span
+{
+	height: .6rem;
+	display: block;
+	margin-right: .37rem;
+	font-size: .34rem;
+	color: #ffea01;
+	text-align: center;
+	line-height: .6rem;
+}
+
+.prise .main .main-ct li>span
+{
+	margin-top: .05rem;
+	height: .36rem;
+	font-size: .286rem;
+	color: #d70827;
+	line-height: .36rem;
+}
+
+.prise .main .main-ct li:nth-child(5)
+{
+	background: #ffcf01;
+	box-shadow: 0 .14rem 0 #c18b17;
+	font-size: .314rem;
+	font-weight: bold;
+	color: #cd0d29;
+	box-sizing: border-box;
+	padding-top: .2rem;
+	line-height: .4rem;
+	text-shadow: 0 0 .02rem #888;
+}
+
+.prise .main .main-ct li:nth-child(5) p
+{
+	font-size: .223rem;
+	font-weight: 200;
+	height: .54rem;
+	line-height: .54rem;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+.prise .main .main-ct li.sp>p
+{
+	width: 100%;
+	height: 100%;
+	background: url(../img/sp.png) no-repeat;
+	background-size: 100% 100%;
+	font-size: .343rem;
+	color: #d70827;
+	line-height: 1.14rem;
+}
+
+.prise .main-foot
+{
+	width: 100%;
+	height: .92rem;
+	background: #d60020;
+	box-sizing: border-box;
+	border: .11rem solid #fb3826;
+	border-radius: .15rem;
+	box-shadow: 0 .11rem 0 #d60020;
+	position: relative;
+	margin-top: .2rem;
+	font-size: .24rem;
+	color: #ffd782;
+}
+
+.prise .main-foot>div
+{
+	position: absolute;
+	width: .2rem;
+	height: .21rem;
+	background: #bd041f;
+	top: -.31rem;
+}
+
+.prise .main-foot>div:first-child
+{
+	left: 1.25rem;
+}
+
+.prise .main-foot>div:nth-child(2)
+{
+	right: 1.25rem;
+}
+
+.prise .main-foot>span
+{
+	position: absolute;
+	top: .2rem;
+}
+
+.prise .main-foot>span:nth-child(3)
+{
+	left: .16rem;
+}
+
+.prise .main-foot>span:nth-child(4)
+{
+	left: 3.2rem;
+}
+
+.prise .main-foot>span:nth-child(5)
+{
+	right: .16rem;
+}
+
+footer ul
+{
+	margin:.33rem .25rem;
+}
+
+footer ul li
+{
+	list-style: none;
+	float: left;
+	width: 3.22rem;
+	height: 1.95rem;
+	background: url(../img/money.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 0 .3rem .18rem;
+	box-sizing: border-box;
+	padding: .23rem .42rem .07rem .46rem;
+}
+
+footer ul li>div
+{
+	box-sizing: border-box;
+	width: 2.44rem;
+	height: .82rem;
+}
+
+footer ul li>div>span.sbig
+{
+	display: block;
+	width: 1.56rem;
+	float: left;
+	font-size: .9rem;
+	line-height: .82rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+footer ul li>div>span.ssal
+{
+	display: block;
+	width: .8rem;
+	float: right;
+	box-sizing: border-box;
+}
+
+footer ul li>div>span.ssal span
+{
+	display: block;
+	height: .27rem;
+	font-size: .19rem;
+}
+
+footer ul li>div>span.ssal span:last-child
+{
+	box-sizing: border-box;
+	padding-left: .1rem;
+}
+
+footer ul li>div:last-child .btn
+{
+	width: 2rem;
+	height: .4rem;
+	color: #fab219;
+	font-size: .24rem;
+	line-height: .4rem;
+	margin-top: .1rem;
+	background: #e22e2e;
+	border-radius: .3rem;
+	box-shadow: .01rem .01rem .01rem #888;
+	text-align: center;
+}
+
+[class^='wrap']
+{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.wrap
+{
+	background: rgba(0,0,0,.7);
+}
+
+.rule
+{
+	position: absolute;
+	top: 1rem;
+	width: 6.3rem;
+	margin: 0 .6rem;
+	color: gainsboro;
+}
+
+.rule p
+{
+	line-height: .52rem;
+}
+
+.rule p:first-child
+{
+	font-size: .36rem;
+	line-height: .7rem;
+	text-align: center;
+}
+
+.rule>div
+{
+	text-align: center;
+}
+
+.rule i
+{
+	font-size: .66rem;
+	line-height: 2rem;
+}
+
+.wrap2 .megImg
+{
+	width: 4.25rem;
+	height: 2rem;
+	margin: 1.16rem auto 0;
+	background: url(../img/sorry2.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.wrap2 .megMain
+{
+	width: 4.25rem;
+	height: 2rem;
+	margin: 0 auto;
+	background: #fff;
+	text-align: center;
+	border-bottom-left-radius: .05rem;
+	border-bottom-right-radius: .05rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.wrap2 .megMain p
+{
+	font-size: .23rem;
+	color: #333;
+	padding-top: .3rem;
+	height: 1.04rem;
+	line-height: 1.04rem;
+}
+
+.wrap2 .megMain .btn
+{
+	height: .5rem;
+	width: 1.5rem;
+	line-height: .5rem;
+	background: #fd7c3f;
+	border-radius: 4px;
+	margin: 0 auto;
+}

@@ -1,0 +1,219 @@
+body
+{
+	font-size: .16rem;
+	color: #fff;
+}
+
+header
+{
+	background: #1a83d1;
+	width: 100%;
+}
+
+.head
+{
+	height: .9rem;
+}
+
+.head span
+{
+	float: right;
+}
+
+.head span i
+{
+	font-size: .38rem;
+	line-height: .9rem;
+	margin-right: .36rem;
+	position: relative;
+}
+
+.head span i span
+{
+	position: absolute;
+	/*display: block;*/
+	top: 0;
+	right: -.1rem;
+	width: .16rem;
+	height: .16rem;
+	background: #f64f4f;
+	border-radius: 50%;
+	line-height: .16rem;
+	font-size: .12rem;
+	text-align: center;
+}
+
+header .userIcon
+{
+	width: 1.42rem;
+	height: 1.42rem;
+	border-radius: 50%;
+	background: #fff;
+	margin: .23rem auto .16rem;
+}
+
+header>p
+{
+	height: .3rem;
+	font-size: .3rem;
+	line-height: .3rem;
+	text-align: center;
+	padding-bottom: .44rem;
+}
+
+.userMsg
+{
+	width: 100%;
+	background: #1175bf;
+	position: relative;
+	margin-bottom: .04rem;
+}
+
+.userMsg>div
+{
+	width: 50%;
+	height: 1.2rem;
+	float: left;
+	font-size: .5rem;
+	line-height: .64rem;
+}
+
+.userMsg>div p
+{
+	box-sizing: border-box;
+	padding: 0 .3rem;
+	height: .56rem;
+	line-height: .56rem;
+	font-size: .22rem;
+}
+
+.userMsg>div span
+{
+	margin-left: 1.34rem;
+}
+
+.userMsg>div.mainString
+{
+	width: .01rem;
+	height: .5rem;
+	position: absolute;
+	background: #fff;
+	left: 50%;
+	padding: 0;
+}
+
+.userMsg>div.mainString.up
+{
+	top: .35rem;
+}
+
+.userMsg>div.mainString.down
+{
+	top: 1.65rem;
+}
+
+.btnGroup
+{
+	box-sizing: border-box;
+	border-top: 2px solid #f6f6f6;
+	border-bottom: 2px solid #f6f6f6;
+	padding: .24rem 1.05rem;
+}
+
+.btnGroup>div
+{
+	float: left;
+	height: .67rem;
+	width: 2.17rem;
+	box-sizing: border-box;
+	font-size: .26rem;
+	line-height: .67rem;
+	text-align: center;
+	border-radius: .08rem;
+}
+
+.btnGroup>div:first-child
+{
+	border: 2px solid #33abf2;
+	color: #33abf2;
+	margin-right: 1.06rem;
+}
+
+.btnGroup>div:last-child
+{
+	background: #fb4b24;
+}
+
+.iconGroup
+{
+	box-sizing: border-box;
+}
+
+.iconGroup>div
+{
+	height: 2.07rem;
+	width: 2.5rem;
+	box-sizing: border-box;
+	border: 2px solid #f6f6f6;
+	float: left;
+	text-align: center;
+}
+
+.iconGroup>div span
+{
+	font-size: .28rem;
+	color: #000;
+}
+
+.iconGroup>div i
+{
+	display: block;
+	width: .72rem;
+	height: .72rem;
+	font-size: .72rem;
+	margin: .43rem auto .14rem;
+}
+
+.iconGroup>div:first-child
+{
+	color: #ffab30;
+}
+
+.iconGroup>div:nth-child(2)
+{
+	color: #54ceba;
+}
+
+.iconGroup>div:nth-child(3)
+{
+	color: #32a9f2;
+}
+
+.iconGroup>div:nth-child(4)
+{
+	color: #40d37b;
+}
+
+.iconGroup>div:nth-child(5)
+{
+	color: #0989ff;	
+}
+
+footer li
+{
+	list-style: none;
+	float: left;
+	height: .99rem;
+	width: 1.5rem;
+	color: #8d8d8d;
+	text-align: center;
+}
+
+footer li i.iconfont
+{
+	width: .4rem;
+	height: .4rem;
+	font-size: .4rem;
+	display: block;
+	margin: .17rem auto .11rem;
+}
