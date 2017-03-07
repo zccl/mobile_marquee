@@ -15,6 +15,14 @@ header>span
 	left: .2rem;
 }
 
+.clearfix:after
+{
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
 .content
 {
 	width: 100%;
@@ -37,7 +45,7 @@ header>span
 	text-align: center;
 }
 
-.head .left a
+.head .left>a
 {
 	height: 1.38rem;
 	width: 1.38rem;
@@ -45,13 +53,14 @@ header>span
 	font-size: 0;
 }
 
-.head .left p
+.head .left p a
 {
 	line-height: .24rem;
 	margin-top: .35rem;
+	color: #fff;
 }
 
-.head .left a img
+.head .left>a img
 {
 	height: 100%;
 }

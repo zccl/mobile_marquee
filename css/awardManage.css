@@ -77,6 +77,11 @@ header nav li:last-child
 	font-size: .3rem;
 }
 
+.content .head span a
+{
+	color: #fff;
+}
+
 .content li
 {
 	width: 6.9rem;
