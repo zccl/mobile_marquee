@@ -5,8 +5,9 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/mobile-reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/user.css" />
 		<link rel="stylesheet" type="text/css" href="fonts/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/user.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
@@ -104,7 +105,7 @@
 					<i class="iconfont icon-icon"></i>
 					<p>积分商城</p>
 				</li>
-				<li>
+				<li class="active">
 					<i class="iconfont icon-me"></i>
 					<p>我的</p>
 				</li>
@@ -114,5 +115,10 @@
 				</li>
 			</ul>
 		</footer>
+		<script>
+			$("footer li").on("click",function(){
+				$(this).addClass("active").siblings().removeClass("active")
+			})
+		</script>
 	</body>
 </html>

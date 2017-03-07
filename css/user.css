@@ -162,7 +162,6 @@ header>p
 .iconGroup>div span
 {
 	font-size: .28rem;
-	color: #000;
 }
 
 .iconGroup>div i
@@ -174,46 +173,27 @@ header>p
 	margin: .43rem auto .14rem;
 }
 
-.iconGroup>div:first-child
+.iconGroup>div:first-child span ,.iconGroup>div:first-child a
 {
 	color: #ffab30;
 }
 
-.iconGroup>div:nth-child(2)
+.iconGroup>div:nth-child(2) span,.iconGroup>div:nth-child(2) a
 {
 	color: #54ceba;
 }
 
-.iconGroup>div:nth-child(3)
+.iconGroup>div:nth-child(3) span , .iconGroup>div:nth-child(3)a
 {
 	color: #32a9f2;
 }
 
-.iconGroup>div:nth-child(4)
+.iconGroup>div:nth-child(4) span , .iconGroup>div:nth-child(4) a
 {
 	color: #40d37b;
 }
 
-.iconGroup>div:nth-child(5)
+.iconGroup>div:nth-child(5) span , .iconGroup>div:nth-child(5) a
 {
 	color: #0989ff;	
-}
-
-footer li
-{
-	list-style: none;
-	float: left;
-	height: .99rem;
-	width: 1.5rem;
-	color: #8d8d8d;
-	text-align: center;
-}
-
-footer li i.iconfont
-{
-	width: .4rem;
-	height: .4rem;
-	font-size: .4rem;
-	display: block;
-	margin: .17rem auto .11rem;
 }

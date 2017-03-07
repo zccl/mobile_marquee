@@ -1,0 +1,28 @@
+footer{
+	position: fixed;
+	border: 0;
+	background-color: #fff;
+}
+
+footer li
+{
+	list-style: none;
+	float: left;
+	height: .99rem;
+	width: 1.5rem;
+	color: #8d8d8d;
+	text-align: center;
+}
+
+footer li.active{
+	color: #fc8d59;
+}
+
+footer li i.iconfont
+{
+	width: .4rem;
+	height: .4rem;
+	font-size: .4rem;
+	display: block;
+	margin: .17rem auto .11rem;
+}

@@ -92,6 +92,10 @@ header>span
 	text-align: center;
 }
 
+.head .right .btn>div a{
+	color: #fff;
+}
+
 .head .right .btn>div:first-child
 {
 	background: #f04806;

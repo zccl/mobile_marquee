@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/mobile-reset.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/iconfont.css" />
 		<link rel="stylesheet" type="text/css" href="css/awardManage.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
 		<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
 		<header>
-			<a href="user.html"><</a>
-			<div class="title">积分管理</div>
-			<nav>
-				<ul>
-					<li>我的积分</li>
-					<li>投资红包</li>
-					<li>抽奖明细</li>
-				</ul>
-			</nav>
+			<a href="user.html">
+				<</a>
+					<div class="title">积分管理</div>
+					<nav>
+						<ul>
+							<li>我的积分</li>
+							<li>投资红包</li>
+							<li>抽奖明细</li>
+						</ul>
+					</nav>
 		</header>
 		<div class="content">
 			<div class="head">
@@ -95,13 +100,37 @@
 				</li>
 			</ul>
 		</div>
-		<!--<script type="text/javascript">
-		//JQuery实现跳转，不打开新窗口
-			$('header a').on('click',function(){
-				location.href = 'user.html';
-				//新窗口打开制定网页
-//				window.open('user.html');
+		<footer>
+			<ul class="clearfix">
+				<li>
+					<a href="index.html">
+						<i class="iconfont icon-shouyeshouye"></i>
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<i class="iconfont icon-licai"></i>
+					<p>理财</p>
+				</li>
+				<li class="active">
+					<i class="iconfont icon-icon"></i>
+					<p>积分商城</p>
+				</li>
+				<li>
+					<i class="iconfont icon-me"></i>
+					<p>我的</p>
+				</li>
+				<li>
+					<i class="iconfont icon-iconfonthome"></i>
+					<p>更多</p>
+				</li>
+			</ul>
+		</footer>
+		<script>
+			$("footer li").on("click", function() {
+				$(this).addClass("active").siblings().removeClass("active")
 			})
-		</script>-->
+		</script>
 	</body>
+
 </html>
